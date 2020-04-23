@@ -1,0 +1,41 @@
+input[type="text"] {
+  width: 150px;
+  display: block;
+  margin-bottom: 10px;
+  background-color: tan;
+}
+#newAdd{
+  height: 33px;
+  width: 150px;
+
+  position: relative;
+
+  top:30px;
+  left: -74px;
+
+  border: 1px solid black;
+
+}
+#newAdd:focus {
+  outline:0;
+}
+
+#myBtn{
+  height: 33px;
+  width: 105px;
+  position:relative;
+  top:-13px;
+  left:126px;
+  cursor: pointer;
+  background-color: #008CBA;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+#myBtn:active {
+ transform: translateY(4px);
+}
+
+#myBtn:focus{
+  outline:0;
+}

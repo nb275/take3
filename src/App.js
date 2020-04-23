@@ -1,25 +1,54 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Todo from './Todo';
+import NewTodo from './NewTodo';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class = "body">
+
+    <div class="text-center">
+    <h1>
+    Nick's Todo List
+    </h1>
     </div>
+
+    <div id = "listContainer">
+    <div class="row">
+
+
+    <div class="col-sm-4" id="empty">
+    </div>
+
+
+
+    <div class="col-sm-4" id="full">
+
+    <section id="todos">
+       <Todo />
+       <Todo />
+       <Todo />
+
+    </section>
+
+    </div>
+    </div>
+
+
+
+    <div class="row">
+    <div class="col-sm-4" id="empty">
+    </div>
+
+    <div class="col-sm-4" id="notempty">
+    <NewTodo />
+    </div>
+
+    </div>
+    </div>
+    </div>
+
   );
 }
 
