@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nb275/take3/static/css/main.d1b05096.chunk.css",
+    "main.js": "/nb275/take3/static/js/main.24120915.chunk.js",
+    "main.js.map": "/nb275/take3/static/js/main.24120915.chunk.js.map",
+    "runtime-main.js": "/nb275/take3/static/js/runtime-main.ee7e825b.js",
+    "runtime-main.js.map": "/nb275/take3/static/js/runtime-main.ee7e825b.js.map",
+    "static/js/2.a525b484.chunk.js": "/nb275/take3/static/js/2.a525b484.chunk.js",
+    "static/js/2.a525b484.chunk.js.map": "/nb275/take3/static/js/2.a525b484.chunk.js.map",
+    "index.html": "/nb275/take3/index.html",
+    "precache-manifest.ab6eeebfe38806a8b7670f4ee9d683d2.js": "/nb275/take3/precache-manifest.ab6eeebfe38806a8b7670f4ee9d683d2.js",
+    "service-worker.js": "/nb275/take3/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/nb275/take3/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.a525b484.chunk.js.LICENSE.txt": "/nb275/take3/static/js/2.a525b484.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/nb275/take3/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee7e825b.js",
+    "static/js/2.a525b484.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.24120915.chunk.js"
+  ]
+}
