@@ -298,7 +298,7 @@ componentDidMount() {
 
 render(){
   return (
-    <div className="container">
+    
         <div className="row">
         <div className="col-sm-4" id="empty">
         </div>
@@ -309,10 +309,8 @@ render(){
           </form>
         </div>
       </div>
-    <div className="row">
-    <button type="button" id= "sortBtn">Sort</button>
-    </div>
-    </div>
+
+
   );
 }
 }
