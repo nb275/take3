@@ -39,3 +39,12 @@ input[type="text"] {
 #myBtn:focus{
   outline:0;
 }
+
+#sortBtn{
+  position:relative;
+  top:0px;
+  left:126px;
+  background-color: #008CBA;
+  border-radius: 6px;
+  border: 1px solid black;
+}

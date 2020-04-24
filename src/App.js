@@ -1,35 +1,35 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Todo from './Todo';
 import NewTodo from './NewTodo';
 
-function App() {
-  return (
-    <div class = "body">
+class App extends Component {
 
-    <div class="text-center">
+
+render() {
+  return (
+    <div className = "body">
+
+    <div className="text-center">
     <h1>
-    Nick's Todo List
+      Nick's Todo List
     </h1>
     </div>
 
     <div id = "listContainer">
-    <div class="row">
+    <div className="row">
 
 
-    <div class="col-sm-4" id="empty">
+    <div className="col-sm-4" id="empty">
     </div>
 
 
 
-    <div class="col-sm-4" id="full">
+    <div className="col-sm-4" id="full">
 
     <section id="todos">
        <Todo />
-       <Todo />
-       <Todo />
-
     </section>
 
     </div>
@@ -37,11 +37,11 @@ function App() {
 
 
 
-    <div class="row">
-    <div class="col-sm-4" id="empty">
+    <div className="row">
+    <div className="col-sm-4" id="empty">
     </div>
 
-    <div class="col-sm-4" id="notempty">
+    <div className="col-sm-4" id="notempty">
     <NewTodo />
     </div>
 
@@ -50,6 +50,7 @@ function App() {
     </div>
 
   );
+}
 }
 
 export default App;
